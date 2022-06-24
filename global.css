@@ -20,6 +20,7 @@ input, button, select, textarea {
     border: 1px solid #ccc;
     border-radius: 2px;
     cursor: pointer;
+    transition: all, 1s;
 }
 
 input:disabled {
