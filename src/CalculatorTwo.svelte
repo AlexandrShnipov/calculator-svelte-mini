@@ -34,7 +34,8 @@
         padding: 1rem;
         border: 2px solid forestgreen;
     }
-    button:hover {
+    button:hover,
+    button:active{
         outline: 2px solid darkblue;
     }
 </style>
