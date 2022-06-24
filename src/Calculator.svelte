@@ -1,13 +1,11 @@
 <script>
     import {calc} from "../scripts/helpers";
     import Operations from "./Operations.svelte";
-
     let oneNumber = 0;
     let twoNumber = 0;
     const opts = [];
     let op = opts[0];
     export let result = 0;
-
     $: result = calc(oneNumber, twoNumber, op);
 </script>
 

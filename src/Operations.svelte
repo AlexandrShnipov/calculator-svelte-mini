@@ -1,5 +1,5 @@
 <script>
-    const operators = ['+', '-', '*', '/'];
+    export const operators = ['+', '-', '*', '/'];
     export let value = operators[0];
 </script>
 

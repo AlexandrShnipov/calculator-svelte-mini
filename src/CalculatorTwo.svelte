@@ -1,15 +1,12 @@
 <script>
     import {calculate} from "../scripts/helpers";
     import Operations from "./Operations.svelte";
-
     let values = [0];
     const opts = [];
     export let resultTwo = 0;
-
     const add = () => {
         values = [...values, 0]
     }
-
     $: resultTwo = calculate(values, opts);
 </script>
 
@@ -37,7 +34,6 @@
         padding: 1rem;
         border: 2px solid forestgreen;
     }
-
     button:hover {
         outline: 2px solid darkblue;
     }
